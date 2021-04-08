@@ -4,13 +4,13 @@ def Home(request):
     return render(request, 'proyectowebapp/home.html')
 
 def Servicios(request):
-    return HttpResponse("Servicios")
+    return render(request, 'proyectowebapp/servicios.html')
 
 def Tienda(request):
-    return HttpResponse("Tienda")
+    return render(request, 'proyectowebapp/tienda.html')
 
 def Blog(request):
-    return HttpResponse("Blog")
+    return render(request, 'proyectowebapp/blog.html')
 
 def Contacto(request):
-    return HttpResponse("Contacto")
+    return render(request, 'proyectowebapp/contacto.html')
