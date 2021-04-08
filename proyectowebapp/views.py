@@ -1,7 +1,7 @@
 from django.shortcuts import render, HttpResponse
 
 def Home(request):
-    return HttpResponse("Inicio")
+    return render(request, 'proyectowebapp/home.html')
 
 def Servicios(request):
     return HttpResponse("Servicios")
