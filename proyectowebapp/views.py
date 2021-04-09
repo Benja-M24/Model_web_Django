@@ -3,9 +3,6 @@ from django.shortcuts import render, HttpResponse
 def Home(request):
     return render(request, 'proyectowebapp/home.html')
 
-def Servicios(request):
-    return render(request, 'proyectowebapp/servicios.html')
-
 def Tienda(request):
     return render(request, 'proyectowebapp/tienda.html')
 
